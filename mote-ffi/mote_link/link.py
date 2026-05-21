@@ -357,7 +357,7 @@ class MoteClient:
 
         Use this method if you know the IP of you robot.
         If your network does not support MDNS you must use this method.
-        You can find your robots IP by connecting using USB and visiting [the configuration page](https://empriselab.github.io/mote-core/configuration/).
+        You can find your robots IP by connecting using USB and visiting [the configuration page](https://empriselab.github.io/mote/configuration/).
         """
         self.ip = ip
         await self._open_connection()
